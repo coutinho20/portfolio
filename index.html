@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portiflio</title>
+    <link rel="stylesheet" href="stayo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--menu encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Coutinho <span><i class="fa-solid fa-mug-saucer"></i></span></a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#portiflio" onclick="seleccionar()">PORTIFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-benner">
+            <div class="contenidor-img">
+                <img src="profile-pic (2).png" width="60%">
+            </div>
+            <h1>Robson</h1>
+            <h2>font-end develop</h2>
+            <div class="redes">
+                <a href="https://github.com/coutinho20"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/rb,coutinho_?igsh=MTNnYTN1bXliWsyMg=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/robson-coutinho-78289b281//"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--sobre mi-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>sobre Mi</h2>
+            <p><span>holla, sol Robosn Coutinho</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ea totam possimus. Nam, non possimus! Expedita exercitationem eum distinctio suscipit facere fugit aperiam earum eius, veniam omnis sit quibusdam doloremque!</p>
+            
+            <div class="fila">
+                <!--datos personales-->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+
+                        <li>
+                            <strong>Telefono</strong>
+                            55+ 91 991840525
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            robsoncoutinho154@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.robson.com
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            Belem PÁ
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>desenvolvedor</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--intereses-->
+                <div class="col">
+                    <h3>intereses</h3>
+                    <div class="contendor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>               
+                            <span>DEPORTE</span>
+                        </div>
+                       <div class="interes">
+                        <i class="fa-solid fa-book"></i>
+                        <span>LIBROS</span>
+                        </div> 
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div> 
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!--skills-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>skills</h2>
+            <div class="fila">
+                <!--techical skill-->
+                <div class="col">
+                    <h3>Techical skills</h3>
+                    <div class="skills">
+                        <span>javascript</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>47%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Html & css</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>87%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>python</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>37%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>React.js & React.native</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>48%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>bootstrap</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>46%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--professipnal skills-->
+                <div class="col">
+                    <h3>professional skills</h3>
+                    <div class="skills">
+                        <span>Comunicacion</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>79%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>87%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Criatividad</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Dedicacion</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>79%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Wordpress</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--seccio portiflio-->
+    <section id="portiflio" class="portiflio">
+        <div class="contenido-seccion">
+            <h2 class="item-h2">PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img3.jpg" width="">
+                    <div class="overlay">
+                        <h3>Ecomerce</h3>
+                        <p>de Redsetes</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img2.jpg" width="">
+                    <div class="overlay">
+                        <h3>Loja Visrtual</h3>
+                        <p>de Aparelhos Eletronicos</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img1.jpg" width="">
+                    <div class="overlay">
+                        <h3>Diseõ Creativo</h3>
+                        <p>fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="https://meetingpulse.net/wp-content/uploads/2022/11/62439482df3803c4d573d126_ImagePolls_Presenter-810x533.png" width="">
+                    <div class="overlay">
+                        <h3>Projeto</h3>
+                        <p>em Andamento</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="https://i.fbcd.co/products/original/8beb2c24a6ea99e111126ac3f8b3ac0c3b51d37c5c435ac8a81498f734fd4add.jpg" width="px">
+                    <div class="overlay">
+                        <h3>Projeto</h3>
+                        <p>em Andamento</p>
+                    </div>
+                </div>
+                    <div class="proyecto">
+                        <img src="https://media.istockphoto.com/id/1336588360/vector/rocket-spaceship-flying-straight-up-to-the-space-vector-illustration-in-the-night-sky-go.jpg?s=612x612&w=0&k=20&c=qQ3n29SjaPPU5PjNcvGc0geWs-6k_N6ksPoRlGDluQw=">
+                        <div class="overlay">
+                            <h3>Projeto</h3>
+                            <p>em Andamento</p>
+                        </div>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!--seccion contato-->
+    <form id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--Formulario-->
+                    <div class="col">
+                        <input type="text" placeholder="Seu Nome" class="inputs required">
+                        <input type="Telefóni" placeholder="Número telefónico" class="inputs required">
+                        <input type="email" placeholder="Digite seu Email" class="inputs required">
+                        <input type="tema" placeholder="Tema" class="inputs required">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button type="submit">Enviar Mensaje<i class="fa-regular fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </div>
+                <!--MAPA-->
+                <div class="col">
+                    <img src="https://th.bing.com/th/id/OIP.AIZKG8rEXBdHYqjSiwmznAHaHa?w=1280&h=1280&rs=1&pid=ImgDetMain" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Nicaragua 159, San Rafael Mza
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                L lamanos: 55+ (91) 99184-0525
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: robsoncoutinho154@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    
+
+    <!--footer-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://github.com/coutinho20"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/rb,coutinho_?igsh=MTNnYTN1bXliWsyMg=="><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/robson-coutinho-78289b281//"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
